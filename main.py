@@ -150,7 +150,11 @@ def go():
             pygame.time.wait(wait_unit_show)
             nr += 1
 
+def print_lol():
+    print("lol")
+
 
 init_display()
 go()
+
 pygame.quit()
